@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  height: 500px;
+  
+}
+
+.container>* {
+  margin: 0 10px;
+  flex: 1;
+}
+nav{
+  height: 70px;
+  justify-content: space-around;
+  padding-left: 850px;
+}
+a{
+ display: inline ;
+ font-family: 'Times New Roman', Times, serif;
+ margin: 35px;
+ text-decoration: none;
+ color: #0079cc;
+ height: 400px;
+ width: 464px;
+    
+}
+ul{
+ 
+  text-align: center;
+}
+body{
+  height: 600px;
+}
+p {
+  background-color: #0079cc ;
+  padding: 2rem;
+  opacity: 0.6;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+footer{
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 15px;
+  height: auto;
+  background-color: #0079cc ;
+  color: white;
+  
+}
+.imagefond{
+  background-image: url(image/1.jpg);
+  -webkit-background-size: cover; 
+  moz-background-size: cover;
+  -o-background-size: cover;
+  height: 750px;
+  width: auto;
+  background-repeat: no-repeat;   
+  background-size: cover; 
+  background-position: center;
+  padding-top: 20px;
+}
+.imagefond2{
+  background-image: url(image/2.jpg);
+  -webkit-background-size: cover; 
+  moz-background-size: cover;
+  -o-background-size: cover;
+  height: 750px;
+  width: auto;
+  background-repeat: no-repeat;   
+  background-size: cover; 
+  background-position: center;
+  padding-top: 20px;
+}
+.imagefond3{
+  background-image: url(image/3.jpg);
+  -webkit-background-size: cover; 
+  moz-background-size: cover;
+  -o-background-size: cover;
+  height: 750px;
+  width: auto;
+  background-repeat: no-repeat;   
+  background-size: cover; 
+  background-position: center;
+  padding-top: 20px;  
+}
+.imagefond4{
+  background-image: url(image/4.jpg);
+  -webkit-background-size: cover; 
+  moz-background-size: cover;
+  -o-background-size: cover;
+  height: 750px;
+  width: auto;
+  background-repeat: no-repeat;   
+  background-size: cover; 
+  background-position: center;
+  padding-top: 20px;  
+}

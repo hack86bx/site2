@@ -1,6 +1,7 @@
 .container {
   display: flex;
   height: 500px;
+
   
 }
 
@@ -28,7 +29,7 @@ ul{
   text-align: center;
 }
 body{
-  height: 600px;
+  height: 1200px;
 }
 p {
   background-color: #0079cc ;
@@ -39,6 +40,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center; 
+  border-radius: 10px;
+  
 }
 footer{
   background-color: whitesmoke;
@@ -54,7 +57,7 @@ footer{
   -webkit-background-size: cover; 
   moz-background-size: cover;
   -o-background-size: cover;
-  height: 750px;
+  height: 100%;
   width: auto;
   background-repeat: no-repeat;   
   background-size: cover; 
@@ -66,7 +69,7 @@ footer{
   -webkit-background-size: cover; 
   moz-background-size: cover;
   -o-background-size: cover;
-  height: 750px;
+  height: 100%;
   width: auto;
   background-repeat: no-repeat;   
   background-size: cover; 
@@ -78,7 +81,7 @@ footer{
   -webkit-background-size: cover; 
   moz-background-size: cover;
   -o-background-size: cover;
-  height: 750px;
+  height: 100%;
   width: auto;
   background-repeat: no-repeat;   
   background-size: cover; 
@@ -90,10 +93,83 @@ footer{
   -webkit-background-size: cover; 
   moz-background-size: cover;
   -o-background-size: cover;
-  height: 750px;
+  height: 100%;
   width: auto;
   background-repeat: no-repeat;   
   background-size: cover; 
   background-position: center;
   padding-top: 20px;  
+  
+}
+img{
+  width: 330px;
+  
+
+}
+
+.block {
+
+    background-color: #0079cc ;
+    padding: 5rem;
+    opacity: 0.6;
+    height: 1000px;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    
+}
+#footer1 {
+  height: 1%;
+  bottom: -542px;
+  position: absolute;
+  width: 100%;
+ 
+}
+
+.block1 {
+
+  background-color: #0079cc ;
+  padding: 5rem;
+  opacity: 0.7;
+  height: 700px;
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center center; 
+  width: 350px;
+  position: absolute;
+  border-radius: 10px;
+  left: 0;
+  
+}
+.block2 {
+
+  background-color: #0079cc ;
+  padding: 5rem;
+  opacity: 0.7;
+  height: 700px;
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center; 
+  width: 350px;
+  position: absolute;
+  margin-left: 220px;
+  border-radius: 10px;
+  right: 0;
+  
+  
+}
+p img {
+  height: 230px;
+  width: 330px;
+}
+html {
+  height: 100%;
+  width: 100% ;
+}
+.imgtail {
+  height: 116px;
+  width: 300px ;
 }

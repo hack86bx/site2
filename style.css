@@ -1,6 +1,7 @@
 .container {
   display: flex;
   height: 500px;
+  
 
   
 }
@@ -8,6 +9,7 @@
 .container>* {
   margin: 0 10px;
   flex: 1;
+  
   
 }
 nav{
@@ -46,14 +48,20 @@ p {
   border-radius: 10px;
   text-align: justify;
   
+  
 }
 footer{
+  bottom: -284px;
   background-color: whitesmoke;
   text-align: center;
   padding: 15px;
   height: auto;
   background-color: #0079cc ;
   color: white;
+  position: absolute;
+  width: 100%;
+
+  
   
 }
 .imagefond{
@@ -125,9 +133,11 @@ img{
 }
 #footer1 {
   height: 1%;
-  bottom: -542px;
+  bottom: -323px;
   position: absolute;
   width: 100%;
+
+  
  
 }
 
@@ -222,4 +232,13 @@ html {
 }
 .font {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+#footer3 em{
+  bottom: 0;
+  background-position: bottom;
+  
 }
